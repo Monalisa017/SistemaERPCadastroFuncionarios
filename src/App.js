@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import { Container, Typography, Grid } from '@mui/material';
+import { Box } from '@mui/material';
 import './App.css';
+import DadosPessoais from './Pages/DadosPessoais/dadosPessoais';
+import Header from './Components/Header/Header';
+import Inicio from './Pages/Inicio/Inicio';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+      <><Header /><Grid container>
+      <Grid><Inicio /> </Grid>
+    </Grid></>
   );
 }
 
