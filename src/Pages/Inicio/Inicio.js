@@ -7,7 +7,7 @@ function Inicio() {
             <Grid container>
                 <Grid>
                     <Typography item xs={4} sm={4} md={4} lg={4} xl={4}>
-                        Inicio
+                        Inicio Teste 
                     </Typography>
                 </Grid>
                 <Grid>
