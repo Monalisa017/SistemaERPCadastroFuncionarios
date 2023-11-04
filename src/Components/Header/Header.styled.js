@@ -1,5 +1,5 @@
-import { Box, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import { Box, Typography } from '@mui/material';
 
 
 export const HeaderContainer = styled(Box)(({ theme }) => ({
@@ -8,23 +8,25 @@ export const HeaderContainer = styled(Box)(({ theme }) => ({
     background: theme.palette.secondary.main,
     alignContent:'center',
     justifyItems:'center',
-    /*position: 'fixed',*/
     zIndex: 2,
-    width:'100%',
+    width:'98%',
     height: "100px",
     alignItems: "center",
     justifyContent: "center",
-    marginTop:'2px',
-
+    borderRadius:'10px',
+    margin:'auto',
+    marginTop:'20px',
 }));
 
 export const TitleComponent = styled(Typography)(({ theme }) => ({
     width: "100%",
     display: "flex",
-    justifyContent: 'spaceBetween',
+    justifyContent: 'center',
     alignItems:'center',
+    alignContent:'center',
     margin: 'auto',
     color:'whitesmoke',
-    fontSize:'18px',
-
+    fontSize:'25px',
+    display: 'flex',
+    flexDirection:'row',
 }));

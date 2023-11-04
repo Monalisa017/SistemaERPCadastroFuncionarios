@@ -3,7 +3,7 @@ import * as Styled from './Header.styled';
 import { HeaderContainer } from './Header.styled';
 
 
-function Header() {
+export default function Header() {
 
     return (
         <Styled.HeaderContainer>
@@ -19,5 +19,3 @@ function Header() {
         </Styled.HeaderContainer>
     );
 };
-
-export default Header;
