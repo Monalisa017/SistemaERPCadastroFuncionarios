@@ -21,14 +21,6 @@ export default function CardComponent() {
           alt="green iguana"
           width='400px'
         />
-        <Styled.CardBox>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Inserir novo colaborador
-          </Typography>
-
-        </CardContent>
-        </Styled.CardBox>
       </CardActionArea>
         
     </Card>
